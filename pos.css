@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.big{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.small{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    right: 10px;
+      
+}
+div{
+    position: relative;
+    margin: 10px;
+    border: 2px solid rgb(140, 31, 31);
+}
